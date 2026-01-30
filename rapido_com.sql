@@ -111,7 +111,7 @@ CREATE TABLE IF NOT EXISTS `courses` (
 ) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Déchargement des données de la table `courses`
+-- Insertion des données de la table `courses`
 --
 
 INSERT INTO `courses` (`course_id`, `point_depart`, `point_arrivee`, `date_heure`, `chauffeur_id`, `operateur_id`, `admin_created_id`, `admin_updated_id`, `statut`, `createdAt`, `updatedAt`) VALUES
@@ -150,7 +150,7 @@ CREATE TABLE IF NOT EXISTS `operateurs` (
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Déchargement des données de la table `operateurs`
+-- Insertion des données de la table `operateurs`
 --
 
 INSERT INTO `operateurs` (`operateur_id`, `nom`, `prenoms`, `telephone`, `sexe`, `mot_de_passe`, `email`, `creator_id`, `createdAt`, `updatedAt`) VALUES
