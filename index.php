@@ -58,7 +58,7 @@ if (isset($_SESSION['connect']) && $_SESSION['connect'] == "oui") {
                         </div>
                         <div class="row align-items-center form-group pb-3 pt-3 mx-5">
                             <div class="col-4 p-0">
-                                <label for="telephone" class="text-light h6">Téléphone :</label>
+                                <label for="telephone" class="text-light h6">Téléphone : </label>
                             </div>
                             <div class="col-8 p-0">
                                 <?php
@@ -72,7 +72,7 @@ if (isset($_SESSION['connect']) && $_SESSION['connect'] == "oui") {
                         </div>
                         <div class="row align-items-center form-group pb-4 pt-3 mx-5 border-bottom">
                             <div class="col-4 p-0">
-                                <label for="password" class="text-light h6">Mot de passe :</label>
+                                <label for="password" class="text-light h6">Mot de passe : </label>
                             </div>
                             <div class="col-8 p-0">
                                 <input type="password" name="mdp" id="password" class="form-control text-center " placeholder="Mot de passe" required>
@@ -94,4 +94,5 @@ if (isset($_SESSION['connect']) && $_SESSION['connect'] == "oui") {
 </body>
 
 </html>
+
 <?php } ?>
