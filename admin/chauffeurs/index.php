@@ -70,7 +70,7 @@ if (isset($_SESSION['connect']) && $_SESSION['connect'] == "oui") {
 
             <div class="card mb-5 ">
                 <div class="card-header fw-bold ">
-                    Les Chauffeurs chez RAPIDO
+                    Les Chauffeurs chez RAPIDO :
                 </div>
                 <div class="card-body">
                     <table class="table table-hover">
@@ -268,4 +268,5 @@ if (isset($_SESSION['connect']) && $_SESSION['connect'] == "oui") {
     $_SESSION['message'] = "Veuillez vous connecter !";
     phpRedirect($url3);
 }
+
 ?>
