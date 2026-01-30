@@ -4,7 +4,7 @@ include_once("assets/includes/functions&Objet.php");
 
 $connexion = (new Base())->connecteBase();
 
-// Requête SQL pour créer les tables
+// Requête SQL pour créer les tables de notre base
 $sql = "
 CREATE TABLE IF NOT EXISTS admin_table (
     admin_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -87,9 +87,10 @@ try {
     echo "<br> Erreur de création du super-Admin " . $e;
 }
 
-$connexion = null;//Pour fermer le chemin
+$connexion = null;//Pour fermer le chemin d'accès
 
 /*
 Pour créer des tables on utilise toujours la fonction "exec".
 Par contre pour faire de mise à jour (inserer des données dans une table) on utilise la fonction "execute". 
+
 */
